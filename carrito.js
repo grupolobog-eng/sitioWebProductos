@@ -1,5 +1,5 @@
 // ------------------- CONFIGURACIÓN -------------------
-const tuNumeroDeWhatsApp = '5212220000000'; // ⚠️ Reemplaza con tu número
+const tuNumeroDeWhatsApp = '2224613215'; // ⚠️ Reemplaza con tu número
 
 const OFERTAS_POR_FAMILIA = {
   'pall-mall': { precioNormal: 78.00, precioOferta: 77.00, cantidadMinima: 5 },
@@ -168,5 +168,6 @@ function enviarPedido() {
     const urlWhatsApp = `https://api.whatsapp.com/send?phone=${tuNumeroDeWhatsApp}&text=${mensajeCodificado}`;
     window.open(urlWhatsApp, '_blank');
 }
+
 
 document.addEventListener('DOMContentLoaded', actualizarCarritoUI);
